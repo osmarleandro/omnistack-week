@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/osmarleandro/omnistack-week/issues"
   },
-  "homepage": "https://github.com/osmarleandro/omnistack-week#readme"
+  "homepage": "https://github.com/osmarleandro/omnistack-week#readme",
+  "dependencies": {
+    "multer": "^1.4.1"
+  }
 }
