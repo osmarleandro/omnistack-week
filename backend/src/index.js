@@ -26,4 +26,4 @@ app.use(
   express.static(path.resolve(__dirname, "..", "uploads", "resized"))
 );
 
-server.listen(3000);
+server.listen(3333);
