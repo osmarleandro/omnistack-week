@@ -5,7 +5,7 @@ const fs = require("fs");
 
 module.exports = {
   async index(req, res) {
-    const posts = Posts.find().sort("-createdAt");
+    const posts = await Post.find().sort("-createdAt");
     return res.json(posts);
   },
 
